@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+}
+.top:hover .ust{
+    transform: translateX(200px);
+    box-shadow: 0px 0px 8px;
+    border-radius: 0px 15px 15px 0px;
+
+}
+.top:hover .ich{
+    transform: translateX(-0px);
+    opacity: 1;
+    box-shadow: 0px 0px 8px;
+}
+.ust{
+    width: 450px;
+    height: 550px;
+    margin-top: 50px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(0, 162, 255);
+    transition: .5s;
+    margin-left: -200px;
+
+}
+
+.ich{
+    width: 450px;
+    height: 550px;
+    border-radius:15px 0px 0px 15px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 250px;
+    transform: translateX(250px);
+    opacity: 0;
+    transition: .5s;
+}
+.ich h1{
+    color: black;
+    font-size: 38px;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.ust h1{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.888);
+    margin-left: 150px;
+    padding-top: 180px;
+}
+.inp1 input{
+    width: 300px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+.inp2 input{
+    width: 300px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 20px;
+    border: 1px solid gray;
+
+}
+
+.ust p{
+    font-style: 25px;
+    color: rgba(255, 255, 255, 0.944);
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 100px;
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+
+}
+.icon3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+
+}

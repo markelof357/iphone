@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.twofon{
+    width: 100%;
+    height: 140vh;
+    background-color: rgba(235, 235, 235, 0.189);
+
+}
+
+.letter{
+    width: 600px;
+    height: 250px;
+    margin-left: 360px;
+    transform: translateY(100px);
+    background-color: transparent;
+}
+.letter h3{
+    font-size: 25px;
+    padding-left: 220px;
+    margin-bottom: 15px;
+}
+.letter h1{
+    font-size: 45px;
+    margin-left: 195px;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+.letter h4{
+    font-size: 23px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.letter a{
+    margin-left: 300px;
+    margin-top: -33px;
+}
+.letter a >span{
+    font-size: 20px;
+}
+.btn{
+    width: 65px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 200px;
+    color: #fff;
+}
+.btn:hover{
+    background-color: rgba(61, 147, 233, 0.936);
+}
+.twofon img{
+    width: 60%;
+    height: 85vh;
+    margin-left: 260px;
+    transform: translatey(111px);
+}
+.qifon{
+    width: 100%;
+    height: 115vh;
+    background-color: rgba(240, 240, 240, 0.189);
+    margin-top: 1%;
+}
+.qifon img{
+    width: 850px;
+    height: 420px;
+    margin-left: 260px;
+   transform: translateY(86px);
+    background: transparent;
+}
+.leter{
+    width: 600px;
+    height: 250px;
+    transform: translateY(80px);
+    margin-left: 360px;
+    background-color: transparent;
+
+}
+.leter h3{
+    font-size: 25px;
+    padding-left: 230px;
+    margin-bottom: 15px;
+}
+.leter h1{
+    font-size: 45px;
+    padding-left: 80px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.leter h4{
+    font-size: 23px;
+    font-weight: 100;
+    margin-left: 25px;
+}
+.leter a{
+    margin-left: 300px;
+    margin-top: -33px;
+}
+.leter a >span{
+    font-size: 20px;
+}
+.therefon{
+    width: 100%;
+    height: 130vh;
+    background-color: rgba(240, 240, 240, 0.189);
+    margin-top: 1%;
+
+}
+
+.tr{
+    width: 520px;
+    height: 853px;
+    transform: translateY(-400px);
+    margin-left: 700px;
+}
+.se{
+    width: 500px;
+    height: 400px;
+    background-color: transparent;
+    transform: translateX(200px) translateY(300px);
+}
+.se h1{
+    color: rgb(16, 89, 246);
+    font-size: 45px;
+    text-align: center;
+}
+.se h4{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(33, 33, 33);
+    margin-top: 20px;
+}
+.se img{
+  margin-left: 180px;
+  margin-top: 15px;
+}
+.therefon a{
+    margin-left: 250px;
+    margin-top: -30px;
+}
+.therefon button{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.new{
+    color: red;
+    font-size: 18px;
+    padding-left: 210px;
+}
+.kal{
+    width: 100%;
+    height: 120vh;
+    background-image: url("./image/kal.jpg");
+    margin-top: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.letters{
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 230px;
+    transform: translateY(250px);
+
+}
+.letters h2{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.letters h1{
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+.btnd{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    font-size: 17px;
+    color: black;
+    margin-top: 10px;
+}
